@@ -1,0 +1,10 @@
+{
+  "name": "@types/murano-helper",
+  "version": "1.0.0",
+  "types:": "index.d.ts",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/muranosoftware/murano-helper-types.git",
+        "directory": "types"
+    }
+}
