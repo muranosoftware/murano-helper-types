@@ -30,9 +30,16 @@ type DictionaryValue = {
 	desc: string;
 };
 
+type TextareaValue = {
+	type: "textarea";
+	value: string;
+	desc: string;
+};
+
 export type MapFileParamType =
 	| TextValue
 	| BoolValue
 	| SingleSelectValue
 	| MultiSelectValue
-	| DictionaryValue;
+	| DictionaryValue
+	| TextareaValue;
