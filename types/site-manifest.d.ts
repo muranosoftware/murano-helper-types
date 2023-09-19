@@ -1,6 +1,6 @@
 export default interface SiteManifest {
 	name: string;
-	url: string | string[];
+	domains: string[];
 	iconUrl: string;
 	isJQuery?: boolean;
 }

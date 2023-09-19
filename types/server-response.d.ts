@@ -15,7 +15,7 @@ export type Site = {
 	id: string;
 	name: string;
 	iconUrl: string;
-	url: string | string[];
+	domains: string[];
 	isJQuery?: boolean;
 	files: MapFile[];
 };
