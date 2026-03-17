@@ -7,7 +7,6 @@ export type MapFile = {
 	desc: string;
 	isEnabled: boolean;
 	canBeToggled: boolean;
-	predicate: string;
 	params: Record<string, MapFileParamType>;
 };
 
